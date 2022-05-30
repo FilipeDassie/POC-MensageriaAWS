@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQS.Provider", "SQS.Provider\SQS.Provider.csproj", "{9901E9F7-E2AE-4166-9433-AA4A5DF8A68A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQS.Consumer", "SQS.Consumer\SQS.Consumer.csproj", "{34DA2931-DC12-42CF-B70B-DC43906AE0D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_AWS.Register", "AWS.Register\01_AWS.Register.csproj", "{53CAC31C-7EAB-4509-9AA7-DAC5556ACC8A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "00_SharedClass", "SharedClass\00_SharedClass.csproj", "{42B85BA0-0189-47BD-929B-ED8BCB354B61}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_AWS.Collector", "AWS.Collector\02_AWS.Collector.csproj", "{3BCE2A38-B54E-4B83-9E13-4F401F63ED61}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_AWS.Marker", "AWS.Marker\03_AWS.Marker.csproj", "{AC9CE215-4E3F-4075-9CF9-485B2606AB76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9901E9F7-E2AE-4166-9433-AA4A5DF8A68A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9901E9F7-E2AE-4166-9433-AA4A5DF8A68A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9901E9F7-E2AE-4166-9433-AA4A5DF8A68A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9901E9F7-E2AE-4166-9433-AA4A5DF8A68A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34DA2931-DC12-42CF-B70B-DC43906AE0D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34DA2931-DC12-42CF-B70B-DC43906AE0D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34DA2931-DC12-42CF-B70B-DC43906AE0D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34DA2931-DC12-42CF-B70B-DC43906AE0D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53CAC31C-7EAB-4509-9AA7-DAC5556ACC8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53CAC31C-7EAB-4509-9AA7-DAC5556ACC8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53CAC31C-7EAB-4509-9AA7-DAC5556ACC8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53CAC31C-7EAB-4509-9AA7-DAC5556ACC8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42B85BA0-0189-47BD-929B-ED8BCB354B61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42B85BA0-0189-47BD-929B-ED8BCB354B61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42B85BA0-0189-47BD-929B-ED8BCB354B61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42B85BA0-0189-47BD-929B-ED8BCB354B61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BCE2A38-B54E-4B83-9E13-4F401F63ED61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BCE2A38-B54E-4B83-9E13-4F401F63ED61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BCE2A38-B54E-4B83-9E13-4F401F63ED61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BCE2A38-B54E-4B83-9E13-4F401F63ED61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC9CE215-4E3F-4075-9CF9-485B2606AB76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC9CE215-4E3F-4075-9CF9-485B2606AB76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC9CE215-4E3F-4075-9CF9-485B2606AB76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC9CE215-4E3F-4075-9CF9-485B2606AB76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C8A7928-6174-4891-88EE-9E0CD586865D}
+	EndGlobalSection
+EndGlobal
