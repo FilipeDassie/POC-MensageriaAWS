@@ -12,7 +12,9 @@ namespace SQS.Consumer
 
         static async Task Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine(string.Empty);
+            Console.WriteLine("Olá! As mensagens enviadas no outro console aparecerão abaixo:");
+            Console.WriteLine(string.Empty);
 
             AmazonSQSClient objClient = new AmazonSQSClient(RegionEndpoint.SAEast1);
 
@@ -21,9 +23,11 @@ namespace SQS.Consumer
                 QueueUrl = QUEUE_URL
             };
 
+            ReceiveMessageResponse objResponse = null;
+
             while (true)
             {
-                ReceiveMessageResponse objResponse = await objClient.ReceiveMessageAsync(objRequest);
+                objResponse = await objClient.ReceiveMessageAsync(objRequest);
 
                 foreach (Message objMenssage in objResponse.Messages)
                 {

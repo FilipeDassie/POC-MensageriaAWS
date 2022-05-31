@@ -12,17 +12,31 @@ namespace SQS.Provider
 
         static async Task Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine(string.Empty);
+            Console.WriteLine("Olá! Escreva uma mensagem e aperte <ENTER> para enviar.");
+            Console.WriteLine(string.Empty);
 
             AmazonSQSClient objClient = new AmazonSQSClient(RegionEndpoint.SAEast1);
 
-            SendMessageRequest objRequest = new SendMessageRequest()
-            {
-                QueueUrl = QUEUE_URL,
-                MessageBody = "teste 123"
-            };
+            SendMessageRequest objRequest = null;
 
-            await objClient.SendMessageAsync(objRequest);
+            string message = string.Empty;
+
+            while (true)
+            {
+                message = Console.ReadLine();
+
+                if (!string.IsNullOrEmpty(message))
+                {
+                    objRequest = new SendMessageRequest()
+                    {
+                        QueueUrl = QUEUE_URL,
+                        MessageBody = message
+                    };
+
+                    await objClient.SendMessageAsync(objRequest);
+                }
+            }
         }
     }
 }
