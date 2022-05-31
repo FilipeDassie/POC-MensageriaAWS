@@ -1,22 +1,24 @@
-Olá, seja bem-vindo(a) a documentação do projeto <b>POC-MensageriaAWS</b>.
+Olá, seja bem-vindo(a)!
 <br><br>
-O mesmo foi desenvolvido baseado no projeto de exemplo do <b>Marcelo Vieira de Souza</b> <i>(@dn32)</i>.
+<b>1. Escopo</b>
 <br><br>
-Skills do projeto:
-<br>
-1 - Micro-Serviços Serverless;<br>
-2 - Net Core 3.1;<br>
-3 - AWS SDK 3.7.2;<br>
-4 - AWS Lambda 2.1;<br>
-5 - DynamoDB 3.7.3;<br>
-6 - SQS e SNS.
+Implementação de um Micro-Serviços Serverless com .Net Core, AWS Lambda, SQS e SNS.
 <br><br>
-Playlist completa do Marcelo: https://www.youtube.com/watch?v=IyvO7wQpcbw&list=PLbDQa2miNh3Bebv2XLwVjxvOK-kMfVUK9
+Usei como referência os vídeos-aula do <b>Marcelo Vieira de Souza</b> <i>(@dn32)</i>.
 <br><br>
-Qualquer dúvida estarei à disposição para ajudar.
+Link: https://www.youtube.com/watch?v=IyvO7wQpcbw&list=PLbDQa2miNh3Bebv2XLwVjxvOK-kMfVUK9
+<br><br>
+<b>2. Tecnologias usadas do projeto:</b>
+<br><br>
+=> Micro-Serviços Serverless;<br>
+=> Net Core 3.1;<br>
+=> AWS SDK 3.7.2;<br>
+=> AWS Lambda 2.1;<br>
+=> DynamoDB 3.7.3;<br>
+=> SQS e SNS.
 <br><br>
 Contatos:
 <br>
 Email: fdolipi@gmail.com
 <br>
-Whats: +5541996826379
+Whats: +55 41 996826379
